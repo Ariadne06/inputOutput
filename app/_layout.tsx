@@ -12,7 +12,7 @@ export default function rootLayout() {
 <ThemeProvider value={DefaultTheme}>
 <StatusBar style="auto" />
       <Stack>
-        <Stack.Screen name="(tabs)" options={{ headerShown: true }} />
+        <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
         <Stack.Screen name="registration" options={{ headerShown: false }} />
         <Stack.Screen name="+not-found" options={{ headerShown: true }} />
       </Stack>

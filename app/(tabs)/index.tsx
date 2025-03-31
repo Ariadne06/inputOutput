@@ -6,7 +6,7 @@ export default function HomeScreen() {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.header}>Index</Text>
+      {/* <Text style={styles.header}>Index</Text> */}
       <Button title="Go to Registration" onPress={() => router.push('/registration/registrationScreen')} />
     </View>
   );
